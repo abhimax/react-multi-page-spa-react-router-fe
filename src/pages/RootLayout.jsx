@@ -1,11 +1,14 @@
 import { Outlet } from "react-router-dom";
 import Navigation from "../components/Navigation";
+import classes from "./Root.module.css";
 
 const RootLayout = () => {
   return (
     <>
       <Navigation />
-      <Outlet />
+      <main className={classes.content}>
+        <Outlet />
+      </main>
     </>
   );
 };
