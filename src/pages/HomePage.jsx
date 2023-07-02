@@ -7,7 +7,8 @@ const HomePage = () => {
   };
   return (
     <div>
-      Home page<button onClick={navigateHandler}>Navigate to Products</button>
+      <h1>Home page</h1>
+      <button onClick={navigateHandler}>Navigate to Products</button>
     </div>
   );
 };
